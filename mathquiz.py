@@ -22,7 +22,7 @@ if level == 'E':
 
 
 
-if level == 'E':
+if level == 'M':
   for i in range(duration):
     n1 = randint(1, 25)
     n2 = randint(1, 25)
@@ -36,7 +36,7 @@ if level == 'E':
 
 
 
-if level == 'E':
+if level == 'H':
   for i in range(duration):
     n1 = randint(1, 100)
     n2 = randint(1, 100)
