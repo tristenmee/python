@@ -12,10 +12,10 @@ guess = input('Enter a number between 1 and 10: ')
 while guesses < 1000:
 	guess = input('Enter a number between 1 and 10: ')
 	if guess > number:
-		print "You'r guess is too high."
+		print "Your guess is too high."
 		guesses = guesses + 1
 	if guess < number:
-		print "You'r guess is too low."
+		print "Your guess is too low."
 		guesses = guesses + 1
 	if guess == number:
 		break
