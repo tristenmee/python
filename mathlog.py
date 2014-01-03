@@ -5,9 +5,7 @@ file = open("log.txt", "a")
 while 1:
 	form = raw_input("(A)ddition, (S)ubtraction, (M)ultiplication, (D)ivision, or (Q)uit : ")
 
-	if form == 'Q':
-		break
-	elif form == 'A':
+	if form == 'A':
 		num1 = input("Enter first number : ")
 		num2 = input("Enter second number : ")
 		answer = num1 + num2
