@@ -3,7 +3,6 @@
 import random
 
 number = random.randint(1,10)
-duration = random.randint(1,1000)
 guesses = 0
 
 guess = input('Enter a number between 1 and 10: ')
