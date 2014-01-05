@@ -2,7 +2,7 @@
 
 import random
 
-print "Welcome to the Dragon game!"
+print "Welcome!"
 
 duration = input("How many rounds would you like to play? ")
 number = random.randint(1, 10)
