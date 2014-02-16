@@ -19,6 +19,10 @@ attempts = 0
 possibleDigits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'] 
 
 
+#Starts the clock
+start = time.time()
+
+
 while 1:
 
 
@@ -51,11 +55,24 @@ while 1:
 
 		#States that if the made up password is = to the real password
 		#then it will break the loop and print the password  with the 
-		#number of attempts but if its not equal it will log it in 
-		#passwords.txt and generate a new number
+		#number of attempts and elapsed time, but if its not equal it 
+		#will log it in passwords.txt and generate a new number
 		if psuedoPassword == password:
+
+
+			#Stops the time
+			end = time.time()
+			elapsed = end - start
+
+
+			#Prints the password, attmepts, and time
 			print "The password is " + psuedoPassword
-			print "It took %s tries" %attempts
+			print "It took " + attemps + " tries and " + elapsed + " seconds."
+
+
+			#Stops the time
+			end = time.time()
+			elapsed = end - start
 
 
 			#Writes over the file
