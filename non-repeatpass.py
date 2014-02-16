@@ -41,11 +41,14 @@ while 1:
 	#is equal to any of the already tried passwords
 	file = open("passwords.txt", "r")
 	triedPasswords = file.readlines()
-
+	
 
 	#Checks passwords.txt to see if the pass has already been tried
+	#and returns to the top of the loop if it is the same
 	if psuedoPassword == triedPasswords:
-		Generate()
+		continue
+
+
 	else:
 
 
