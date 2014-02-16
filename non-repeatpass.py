@@ -1,7 +1,7 @@
 # File: non-repeatpass.py
 
 
-#Imports random and choice
+#Imports random, choice, and time
 import random
 import time
 from random import choice
